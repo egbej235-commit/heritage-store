@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>shopping list</title>
 </head>
 <body>
-    <h1>Welcome to Heritage Store</h1>
-    <p>Discover the rich history and culture of our heritage store.</p>
-<h2>we deal with all kinds of product</h2>
-    <p>come and shop well</p>
+    <header>
+        <div class="title">
+            <img src="">
+            <h2>shopping list</h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="itemSection">
+            <input text="type"placeholder="(e.g: apple)" />
+            <input type="number" placeholder="(e.g: price)"/>
+
+            <button class="add">Add</button>
+        </section>
+
+        <section class="list"></section>
+
+        <section>
+            <button class="calculate">calculate Total</button>
+            <h3>total: $0.00</h3>
+        </section>
+    </main>
+    <script defer src="./script.js"></script>
 </body>
 </html>
